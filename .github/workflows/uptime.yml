@@ -15,5 +15,5 @@ jobs:
           do
             curl -s https://dzairgpt.onrender.com/chat?request=hi > /dev/null
             echo "Ping $i done!"
-            sleep 50  # Wait 50 seconds before the next ping
+            sleep 60  # Wait 50 seconds before the next ping
           done
